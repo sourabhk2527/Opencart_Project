@@ -7,3 +7,12 @@
 2025-03-07 22:34:43 - INFO - testCases.TC01_AccountRegistrationTest - ***** Finished TC01_AccountRegistrationTest *******
 2025-03-07 22:34:47 - INFO - testCases.TC02_LoginTest - ***** Starting TC02_LoginTest *******
 2025-03-07 22:34:50 - INFO - testCases.TC02_LoginTest - ***** Finished TC02_LoginTest *******
+2025-03-07 22:49:56 - INFO - testCases.TC01_AccountRegistrationTest - ***** Starting TC01_AccountRegistrationTest *******
+2025-03-07 22:49:56 - INFO - testCases.TC01_AccountRegistrationTest - ****** Clicked on Account link ******
+2025-03-07 22:49:57 - INFO - testCases.TC01_AccountRegistrationTest - ****** Clicked on Register l ink ******
+2025-03-07 22:49:58 - INFO - testCases.TC01_AccountRegistrationTest - ****** Filled Personal Details ******
+2025-03-07 22:49:58 - INFO - testCases.TC01_AccountRegistrationTest - ****** Checked Policy Checkbox ******
+2025-03-07 22:50:00 - INFO - testCases.TC01_AccountRegistrationTest - ****** Validating exepected message ******
+2025-03-07 22:50:00 - INFO - testCases.TC01_AccountRegistrationTest - ***** Finished TC01_AccountRegistrationTest *******
+2025-03-07 22:50:06 - INFO - testCases.TC02_LoginTest - ***** Starting TC02_LoginTest *******
+2025-03-07 22:50:08 - INFO - testCases.TC02_LoginTest - ***** Finished TC02_LoginTest *******
