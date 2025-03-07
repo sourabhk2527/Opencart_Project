@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  selenium-hub:
+    image: selenium/hub
+    ports:
+      - "4442-4444:4442-4444"
+    networks:
+      - mygrid
+
+  chrome-node:
+    image: selenium/node-chrome
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    volumes:
+      - /dev/shm:/dev/shm
+    networks:
+      - mygrid
+
+  firefox-node:
+    image: selenium/node-firefox
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+    volumes:
+      - /dev/shm:/dev/shm
+    networks:
+      - mygrid
+
+networks:
+  mygrid:
+    driver: bridge
