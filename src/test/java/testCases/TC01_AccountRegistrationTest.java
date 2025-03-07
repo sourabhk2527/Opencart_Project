@@ -49,7 +49,7 @@ public class TC01_AccountRegistrationTest extends BaseClass {
 		//Assert.assertEquals(confmsg, "Your Account Has Been Created!!");
 		}
 		catch (Exception e) {
-			Assert.fail();
+			Assert.fail("Failed");
 			
 		}
 		logger.info("***** Finished TC01_AccountRegistrationTest *******");

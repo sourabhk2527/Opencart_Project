@@ -33,7 +33,7 @@ public class TC02_LoginTest extends BaseClass{
 		Assert.assertTrue(msgAccount);    //Assert.assertEquals(msgAccount, true, "Login Failed...");
 		}
 		catch (Exception e) {
-            Assert.fail();
+            Assert.fail("Failed");
 		}
 		logger.info("***** Finished TC02_LoginTest *******");
 		
